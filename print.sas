@@ -1,3 +1,4 @@
+* test macro;
 
 %macro print(dsn,obs);
 proc print data=&dsn (obs=&obs);

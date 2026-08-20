@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_xprt_macro",
+  "source_file": "xprt.sas",
+  "source_blob_sha": "3b48e9746a7aaedd5c948b055d1792ccfea1f4d0",
+  "source_commit": "30559ced04aee000e5caa026d888ed668c8eecda",
+  "notes": "xprt.sas defines %xprt(dsn) = proc print data=&dsn (no obs limit); the repo ships no example call for it, so this bundle adds a minimal caller, %xprt(sashelp.class), exercising the macro against a stock SAS reference table."
+}
